@@ -4,5 +4,8 @@ require 'interactive_record.rb'
 
 class Student < InteractiveRecord
   attr_accessor :old_name, :new_name, :old_grade, :new_grade
-
 end
+
+Self.table_name(name)
+  name.downcase
+end 
