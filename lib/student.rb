@@ -10,12 +10,12 @@ def self.table_name
  end
 
 def self.column_names
-end 
+end
 
 def initialize(id, name, grade)
   @name = name
-  @id = id 
-  @grade = grade 
-end 
+  @id = id
+  @grade = grade
+end
 
-end 
+end
