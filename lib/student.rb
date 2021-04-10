@@ -12,7 +12,7 @@ def self.table_name
 def self.column_names
 end
 
-def initialize(id, name, grade)
+def initialize
   @name = name
   @id = id
   @grade = grade
