@@ -8,4 +8,4 @@ end
 
 Self.table_name(name)
   name.downcase
-end 
+end
