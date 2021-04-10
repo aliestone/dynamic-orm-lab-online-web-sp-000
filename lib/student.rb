@@ -8,4 +8,14 @@ class Student < InteractiveRecord
 def self.table_name
    self.to_s.downcase.pluralize
  end
+
+def self.column_names
+end 
+
+def initialize(id, name, grade)
+  @name = name
+  @id = id 
+  @grade = grade 
+end 
+
 end 
